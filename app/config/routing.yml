@@ -1,0 +1,16 @@
+tunivision_culture:
+    resource: "@TunivisionCultureBundle/Resources/config/routing.yml"
+    prefix:   /
+
+esprit_esprit:
+    resource: "@espritEspritBundle/Resources/config/routing.yml"
+    prefix:   /
+
+esprit_esprit_parc:
+    resource: "@espritEspritParcBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

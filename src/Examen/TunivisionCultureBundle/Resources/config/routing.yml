@@ -1,0 +1,6 @@
+tunivision_culture_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TunivisionCultureBundle:Default:index }
+ajoutEvenement:
+    path:     /ajout
+    defaults: { _controller: TunivisionCultureBundle:Tunivision:add }

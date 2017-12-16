@@ -1,0 +1,4 @@
+services:
+#    tunivision_culture.example:
+#        class: Examen\TunivisionCultureBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
